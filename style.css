@@ -1,0 +1,117 @@
+.bg {
+    background-color: yellow;
+}
+
+body {
+    background-color: red;
+}
+
+.icons {
+    list-style-type: none;
+    padding: 8px;
+    position: relative;
+    top: 20px;
+    
+}
+
+.iconss {
+    position:absolute;
+    top: 15%;
+    right: 4%;
+    list-style-type: none;
+    font-weight:bolder;
+    font-style: oblique;
+    color:crimson;    
+}
+
+.mics {
+    width:100%;
+    margin: auto;
+    display: block;
+    height: 350px;
+    margin-top: 10px;
+    -webkit-box-shadow: -14px -20px 11px -2px rgba(0,0,0,0.56);
+-moz-box-shadow: -14px -20px 11px -2px rgba(0,0,0,0.56);
+box-shadow: -14px -20px 11px -2px rgba(0,0,0,0.56);
+}
+
+
+.corou {
+    padding-top: 20px;
+}
+
+.olao {
+    padding-left: 20px;
+    border-radius: 20%;
+    transition: 1sec ease-in-out;
+    
+}
+
+.olao:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    
+}
+
+section {
+    padding-top: 20px;
+    display: flex;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.98);
+-moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.98);
+box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.98);
+
+}
+
+.all {
+    display: flex;
+}
+
+.firstpic {
+    text-align: center;
+}
+
+h2.name {
+    font-style: oblique;
+}
+
+h1.vision {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: darkblue;
+}
+
+.ola {
+    max-width: 400px;
+    margin-left: 20px;
+    margin-top: 5%;
+    }
+
+.ola p {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkgoldenrod;
+    
+}
+
+
+@media (max-width:680px){
+   
+    .icon {
+        padding:1px;
+    }
+    
+    
+    .iconss {
+        top: 100px; 
+        
+    }
+    
+    
+    
+    .all{
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
